@@ -1,7 +1,7 @@
 
 
 function addElementToBeginningOfArray(arr, e){
-  var r = ...arr
+  var r = [...arr]
   r.unshift(e)
   return r
 }
