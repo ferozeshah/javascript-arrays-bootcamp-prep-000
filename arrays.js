@@ -24,6 +24,10 @@ function destructivelyAddElementToEndOfArray(){
   return r
 }
 
+function accessElementInArray{
+  
+}
+
 cars = ["Honda","Toyota"]
 
 console.log(addElementToBeginningOfArray(cars,"BMW"))
