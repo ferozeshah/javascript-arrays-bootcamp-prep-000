@@ -12,3 +12,5 @@
 // }
 
 cars = ["Honda","Toyota"]
+
+console.log(cars)
