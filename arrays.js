@@ -14,11 +14,14 @@ function destructivelyAddElementToBeginningOfArray(arr,e){
 }
 
 function addElementToEndOfArray (){
-  
+  var r = [...arr]
+  r.push(e)
+  return r
 }
 
 function destructivelyAddElementToEndOfArray(){
-
+  arr.push(e)
+  return r
 }
 
 cars = ["Honda","Toyota"]
