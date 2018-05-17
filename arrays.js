@@ -38,6 +38,10 @@ function removeElementFromBeginningOfArray(arr){
   return r
 }
 
+function destructivelyRemoveElementFromEndOfArray(arr){
+  
+}
+
 cars = ["Honda","Toyota"]
 
 console.log(addElementToBeginningOfArray(cars,"BMW"))
