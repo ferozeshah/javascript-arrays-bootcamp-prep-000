@@ -6,6 +6,7 @@ addElementToBeginningOfArray(arr, e){
   return r
 }
 
-destructivelyAddElementToBeginningOfArray(){
-  
+destructivelyAddElementToBeginningOfArray(arr,e){
+  arr.unshift(e)
+  return r
 }
