@@ -24,8 +24,8 @@ function destructivelyAddElementToEndOfArray(){
   return r
 }
 
-function accessElementInArray{
-  
+function accessElementInArray(arr,i){
+  return arr[i]
 }
 
 cars = ["Honda","Toyota"]
